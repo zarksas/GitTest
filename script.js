@@ -25,6 +25,16 @@ let man = {
             return 'Ожирение'
     
         },
+        
+
+        giveMoney(number) {
+            if (number > (this.checkMoney / 2)) {
+                return 'Делахь, сайгах дац са оццал ахч'
+            } else { 
+                return `Хьаэца хьай ${number}. Соьгахь диснаг х1ар ду:${this.checkMoney - number}. Сих хьадалахь! `
+            }   
+        },
+
 
 }
 
