@@ -8,7 +8,9 @@ let man = {
     password: 232425,
     checkMoney: 200000,
 
-   
+    getIm() {
+        this.massa / this.height **2
+    },
 }
 
 man.location = {
