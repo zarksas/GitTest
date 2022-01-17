@@ -10,3 +10,10 @@ let man = {
 
    
 }
+
+man.location = {
+    city: "Grozny",
+    street: "Derbicheva",
+    house: 43,
+}
+
