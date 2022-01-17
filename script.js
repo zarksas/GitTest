@@ -17,3 +17,9 @@ man.location = {
     house: 43,
 }
 
+const lorem = 232425;
+
+if (lorem === man.password) {
+    console.log(`Добро пожаловать ${man.name} ${man.surname}. Ваш логин${man.login}`);
+}else 
+    console.log(`Указанный пароль ${lorem} не верен`);
