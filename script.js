@@ -44,6 +44,17 @@ man.location = {
     house: 43,
 }
 
+man.lotteryNumber = 999;
+
+let lottery = Math.random(0, 1001);
+
+if (lotteryNumber === lottery) {
+    man.checkMoney + 1000000;
+    return "поздравляем вы выиграли!";
+} else 
+    return "Вы проиграли, попробуйте еще раз";
+
+
 const lorem = 232425;
 
 if (lorem === man.password) {
