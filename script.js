@@ -11,6 +11,21 @@ let man = {
     getIm() {
         this.massa / this.height **2
     },
+
+    
+
+    imtResult(indexMassa) {
+        if (indexMassa <= 18) {
+            return 'Недостаточный вес';
+        } else if (indexMassa > 18 && indexMassa <=25) {
+            return 'Вес в норме';
+        } else if (indexMassa > 25 && indexMassa <=29) {
+            return 'Избыточный вес'
+        }  else 
+            return 'Ожирение'
+    
+        },
+
 }
 
 man.location = {
